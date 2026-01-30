@@ -4,6 +4,14 @@
   "description": "Armenian dictionary extension for Code Spell Checker.",
   "version": "0.1.0",
   "publisher": "Hayk Dilakyan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DHayk87/ArmenianSpell_Check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DHayk87/ArmenianSpell_Check/issues"
+  },
+  "homepage": "https://github.com/DHayk87/ArmenianSpell_Check#readme",
   "engines": {
     "vscode": "^1.60.0"
   },
