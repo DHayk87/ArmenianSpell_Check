@@ -1,0 +1,9 @@
+targets:
+  - name: armenian
+    sources:
+      - path: ./dictionaries/hy-AM.dic
+        languageId: hy
+    hunspell:
+      affix: ./dictionaries/hy-AM.aff
+    format: trie3
+    targetDirectory: ./dist

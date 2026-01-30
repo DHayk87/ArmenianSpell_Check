@@ -1,0 +1,35 @@
+{
+  "name": "cspell-armenian",
+  "displayName": "Armenian - Code Spell Checker",
+  "description": "Armenian dictionary extension for Code Spell Checker.",
+  "version": "0.1.0",
+  "publisher": "Hayk Dilakyan",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Education",
+    "Linters"
+  ],
+  "contributes": {
+    "cSpell": {
+      "dictionaries": [
+        {
+          "name": "armenian",
+          "path": "./dictionaries/armenian.trie",
+          "description": "Armenian dictionary",
+          "addWords": true
+        }
+      ],
+      "languageSettings": [
+        {
+          "languageId": "*",
+          "locale": "hy",
+          "dictionaries": [
+            "armenian"
+          ]
+        }
+      ]
+    }
+  }
+}
